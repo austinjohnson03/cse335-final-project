@@ -1,0 +1,34 @@
+CREATE DATABASE IF NOT EXISTS nba;
+
+USE nba;
+
+
+
+CREATE TABLE IF NOT EXISTS players (
+	id INT UNSIGNED PRIMARY KEY,
+	first_name VARCHAR(24) NOT NULL,
+	last_name VARCHAR(32) NOT NULL,
+	birthdate DATE NOT NULL,
+	school VARCHAR(32) NOT NULL,
+	country VARCHAR(32) NOT NULL,
+	last_affiliation VARCHAR(64) NOT NULL,
+	height INT UNSIGNED NOT NULL,
+	weight INT UNSIGNED NOT NULL,
+	season_exp INT UNSIGNED NOT NULL,
+	jersey_number INT UNSIGNED NOT NULL,
+	position ENUM(
+		'Guard', 'Forward', 'Center', 
+		'Guard-Forward', 'Guard-Center', 'Forward-Center'
+		) NOT NULL,
+	is_active BOOLEAN NOT NULL DEFAULT FALSE,
+	team_id INT UNSIGNED NOT NULL,
+	from_year INT UNSIGNED NOT NULL,
+	to_year INT UNSIGNED NOT NULL,
+	is_d_league BOOLEAN NOT NULL DEFAULT FALSE,
+	is_nba BOOLEAN NOT NULL DEFAULT FALSE,
+	has_played BOOLEAN NOT NULL DEFAULT FALSE,
+	is_greatest_75 BOOLEAN NOT NULL DEFAULT FALSE,
+	FOREIGN KEY (team_id) REFERENCES teams(id)
+		ON DELETE CASCADE ON UPDATE CASCADE
+);
+

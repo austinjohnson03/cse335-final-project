@@ -5,12 +5,35 @@ import os
 #TODO: Join team_history.csv with team.csv
 
 def main():
+   clean_files() 
+   create_teams_csv()
+
+
+def create_teams_csv():
+    # Read in games data 
+    df = pd.read_csv('cleaned_data/game.csv')
+
+    # Get unique team IDs from the DataFrame
+    team_ids = pd.Series(df['team_name_home'].tolist() + df['team_name_away'].tolist()).unique()
+
+    team_ids.to_csv('cleaned_data/team_ids.csv', index=False, header=False)
+
+    print("Created teams.csv with unique team IDs and placeholder names.")
+
+
+def get_headers_and_data_types(file_path):
+    """Read the CSV file and return the headers and data types."""
+    df = pd.read_csv(file_path, nrows=0)  # Read only the header row
+    dtypes = df.dtypes.apply(lambda x: x.name).to_dict()
+    return dtypes
+
+
+def clean_files():
     # Create cleaned_data directory if it doesn't exist
     create_cleaned_data_dir()
 
     # Clean each CSV file
     clean_common_players()
-    clean_draft_combine_stats_csv()
     clean_draft_history_csv()
     clean_game_info_csv()
     clean_game_summary_csv()
@@ -27,30 +50,36 @@ def clean_common_players():
     df = pd.read_csv('original_data/common_player_info.csv')
 
     df = df.drop(columns=[
-        'display_last_comma_first', 'display_fi_last', 'games_played_current_season_flag',
+        'display_last_comma_first', 'display_fi_last', 'display_first_last', 'games_played_current_season_flag',
         'team_name', 'team_abbreviation', 'team_code', 'team_city', 'draft_year',
-        'draft_round', 'draft_number'
+        'draft_round', 'draft_number', 'player_slug', 'playercode'
         ])
     
+    df.rename(columns={
+        "rosterstatus": "is_active",
+        "dleague_flag": "is_dleague",
+        "nba_flag": "is_nba",
+        "games_played_flag": "has_played",
+        "greatest_75_flag": "is_greatest_75"
+        }, inplace=True)
+    
     df['height'] = df['height'].apply(convert_height_to_inches).astype('Int32')
+
+    convert_to_int_32 = ["from_year", "to_year", "weight", "season_exp"]
+    df[convert_to_int_32] = df[convert_to_int_32].astype('Int32')
 
     df["birthdate"] = pd.to_datetime(df["birthdate"], errors='coerce')
     df['birthdate'] = df['birthdate'].apply(clean_dates)
 
+    # Convert active or inactive to boolean
+    df['is_active'] = df['is_active'].apply(lambda x: True if x == 'Active' else False)
+    df['is_dleague'] = df['is_dleague'].apply(lambda x: True if x == 'Y' else False)
+    df['is_nba'] = df['is_nba'].apply(lambda x: True if x == 'Y' else False)
+    df['has_played'] = df['has_played'].apply(lambda x: True if x == 'Y' else False)
+    df['is_greatest_75'] = df['is_greatest_75'].apply(lambda x: True if x == 'Y' else False)
+
     df.to_csv('cleaned_data/common_player_info.csv', index=False)
     print("Cleaned common player data saved to cleaned_data/common_player_info.csv")
-
-def clean_draft_combine_stats_csv():
-    df = pd.read_csv("original_data/draft_combine_stats.csv")
-
-    # Drop unnecessary columns
-    df = df.drop(columns=[
-        "player_name", "height_wo_shoes_ft_in", "height_w_shoes_ft_in",
-        "wingspan_ft_in", "standing_reach_ft_in"
-    ])
-
-    df.to_csv('cleaned_data/draft_combine_stats.csv', index=False)
-    print("Cleaned draft combine stats data saved to cleaned_data/draft_combine_stats.csv")
 
 
 def clean_draft_history_csv():
@@ -67,7 +96,7 @@ def clean_game_info_csv():
     df = pd.read_csv('original_data/game_info.csv')
 
     # Convert date columns to datetime format
-    df["game_date"] = pd.to_datetime(df["game_date"], format="%Y-%m-%d", errors='coerce')
+    df["game_date"] = pd.to_datetime(df["game_date"], errors='coerce')
     df["game_date"] = df["game_date"].dt.strftime("%Y-%m-%d")
 
     df.to_csv('cleaned_data/game_info.csv', index=False)
@@ -92,7 +121,8 @@ def clean_game_csv():
     # Drop unnecessary columns
     df = df.drop(columns=[
         "video_available_home", "video_available_away", "fg_pct_home", "fg_pct_away",
-        "fg3_pct_home", "fg3_pct_away", "ft_pct_home", "ft_pct_away",
+        "fg3_pct_home", "fg3_pct_away", "ft_pct_home", "ft_pct_away", "team_id_home",
+        "team_id_away", "matchup_home", "wl_home", "wl_away", "matchup_away"
     ])
 
     columns_to_convert = [
@@ -105,6 +135,9 @@ def clean_game_csv():
     ]
 
     df[columns_to_convert] = df[columns_to_convert].astype('Int32')
+
+    df["game_date"] = pd.to_datetime(df["game_date"], errors='coerce')
+    df["game_date"] = df["game_date"].dt.strftime("%Y-%m-%d")
 
     df.to_csv('cleaned_data/game.csv', index=False)
     print("Cleaned game data saved to cleaned_data/game.csv")
@@ -145,7 +178,7 @@ def clean_line_score_csv():
 
 def clean_other_stats_csv():
     # Read the CSV file into a DataFrame
-    df = pd.read_csv('sample_data/other_stats.csv')
+    df = pd.read_csv('original_data/other_stats.csv')
 
     # Drop unnecessary columns
     df = df.drop(columns=["team_abbreviation_home", "team_abbreviation_away"])

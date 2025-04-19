@@ -1,0 +1,26 @@
+team_id,abbreviation,nickname,city,arena,arena_capacity,owner,general_manager,head_coach,d_league_affiliation
+1610612737,ATL,Hawks,Atlanta,State Farm Arena,18729,Tony Ressler,Travis Schlenk,Quin Snyder,College Park Skyhawks
+1610612741,CHI,Bulls,Chicago,United Center,21711,Michael Reinsdorf,Arturas Karnisovas,Billy Donovan,Windy City Bulls
+1610612742,DAL,Mavericks,Dallas,American Airlines Center,19200,Mark Cuban,Nico Harrison,Jason Kidd,Texas Legends
+1610612743,DEN,Nuggets,Denver,Ball Arena,,Stan Kroenke,Calvin Booth,Michael Malone,Grand Rapids Gold
+1610612744,GSW,Warriors,Golden State,Chase Center,,Joe Lacob,Bob Myers,Steve Kerr,Santa Cruz Warriors
+1610612745,HOU,Rockets,Houston,Toyota Center,18104,Tilman Fertitta,Rafael Stone,Ime Udoka,Rio Grande Valley Vipers
+1610612746,LAC,Clippers,Los Angeles,Crypto.com Arena,19060,Steve Ballmer,Michael Winger,Tyronn Lue,Agua Caliente Clippers of Ontario
+1610612747,LAL,Lakers,Los Angeles,Crypto.com Arena,19060,Jeanie Buss,Rob Pelinka,Darvin Ham,South Bay Lakers
+1610612748,MIA,Heat,Miami,Kaseya Center,19600,Micky Arison,Pat Riley,Erik Spoelstra,Sioux Falls Skyforce
+1610612749,MIL,Bucks,Milwaukee,Fiserv Forum,17500,Wesley Edens & Marc Lasry,Jon Horst,Adrian Griffin,Wisconsin Herd
+1610612750,MIN,Timberwolves,Minnesota,Target Center,19356,Glen Taylor,Tim Connelly,Chris Finch,Iowa Wolves
+1610612751,BKN,Nets,Brooklyn,Barclays Center,,Joe Tsai,Sean Marks,Jacque Vaughn,Long Island Nets
+1610612754,IND,Pacers,Indiana,Gainbridge Fieldhouse ,18345,Herb Simon,Kevin Pritchard,Rick Carlisle,Fort Wayne Mad Ants
+1610612755,PHI,76ers,Philadelphia,Wells Fargo Center,,Joshua Harris & David Blitzer,Elton Brand,Nick Nurse,Delaware Blue Coats
+1610612756,PHX,Suns,Phoenix,Footprint Center,,Mat Ishbia,James Jones,Frank Vogel,No Affiliate
+1610612757,POR,Trail Blazers,Portland,Moda Center,19980,Jody Allen,Joe Cronin,Chauncey Billups,No Affiliate
+1610612758,SAC,Kings,Sacramento,Golden 1 Center,17500,Vivek Ranadive,Monte McNair,Mike Brown,Stockton Kings
+1610612759,SAS,Spurs,San Antonio,AT&T Center,18694,Peter Holt,Brian Wright,Gregg Popovich,Austin Spurs
+1610612760,OKC,Thunder,Oklahoma City,Paycom Center,,Clay Bennett,Sam Presti,Mark Daigneault,Oklahoma City Blue
+1610612761,TOR,Raptors,Toronto,Scotiabank Arena,,Lawrence Tanenbaum,Masai Ujiri,,Raptors 905
+1610612762,UTA,Jazz,Utah,Delta Center,,Ryan Smith,Justin Zanik,Will Hardy,Salt Lake City Stars
+1610612763,MEM,Grizzlies,Memphis,FedExForum,18119,Robert Pera,Zach Kleiman,Taylor Jenkins,Memphis Hustle
+1610612764,WAS,Wizards,Washington,Capital One Arena,20647,Ted Leonsis,Tommy Sheppard,Wes Unseld,Capital City Go-Go
+1610612765,DET,Pistons,Detroit,Little Caesars Arena,,Tom Gores,Ed Stefanski,Monty Williams,Motor City Cruise
+1610612766,CHA,Hornets,Charlotte,Spectrum Center,19026,Michael Jordan,Mitch Kupchak,Steve Clifford,Greensboro Swarm
