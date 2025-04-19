@@ -1,0 +1,6 @@
+game_id,league_id,team_id_home,team_abbreviation_home,team_city_home,pts_paint_home,pts_2nd_chance_home,pts_fb_home,largest_lead_home,lead_changes,times_tied,team_turnovers_home,total_turnovers_home,team_rebounds_home,pts_off_to_home,team_id_away,team_abbreviation_away,team_city_away,pts_paint_away,pts_2nd_chance_away,pts_fb_away,largest_lead_away,team_turnovers_away,total_turnovers_away,team_rebounds_away,pts_off_to_away
+29600012,0,1610612756,PHX,Phoenix,44,18,2,1,4,1,0.0,12.0,11.0,,1610612747,LAL,Los Angeles,42,10,13,19,0.0,23.0,11.0,
+29600005,0,1610612737,ATL,Atlanta,32,9,6,0,0,0,1.0,24.0,7.0,,1610612748,MIA,Miami,32,15,14,16,1.0,19.0,6.0,
+29600002,0,1610612739,CLE,Cleveland,36,14,6,20,1,1,0.0,15.0,5.0,,1610612751,NJN,New Jersey,26,16,4,2,1.0,22.0,12.0,
+29600007,0,1610612754,IND,Indiana,34,11,4,10,7,4,0.0,18.0,8.0,,1610612765,DET,Detroit,30,14,7,9,2.0,19.0,10.0,
+29600013,0,1610612746,LAC,Los Angeles,40,19,2,12,5,4,0.0,20.0,7.0,,1610612744,GSW,Golden State,30,9,2,6,0.0,20.0,7.0,

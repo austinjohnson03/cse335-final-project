@@ -1,0 +1,6 @@
+game_id,eventnum,eventmsgtype,eventmsgactiontype,period,wctimestring,pctimestring,homedescription,neutraldescription,visitordescription,score,scoremargin,person1type,player1_id,player1_name,player1_team_id,player1_team_city,player1_team_nickname,player1_team_abbreviation,person2type,player2_id,player2_name,player2_team_id,player2_team_city,player2_team_nickname,player2_team_abbreviation,person3type,player3_id,player3_name,player3_team_id,player3_team_city,player3_team_nickname,player3_team_abbreviation,video_available_flag
+29600012,0,12,0,1,14:43 PM,12:00,,Start of 1st Period (14:43 PM EST),,,,0.0,0,,,,,,0.0,0,,,,,,0.0,0,,,,,,0
+29600012,2,10,0,1,14:50 PM,12:00,Jump Ball O'Neal vs. Kleine: Tip to Cassell,,,,,4.0,406,Shaquille O'Neal,1610612747.0,Los Angeles,Lakers,LAL,5.0,170,Joe Kleine,1610612756.0,Phoenix,Suns,PHX,5.0,208,Sam Cassell,1610612756.0,Phoenix,Suns,PHX,0
+29600012,3,2,1,1,14:51 PM,11:45,,,MISS Cassell 15' Jump Shot,,,5.0,208,Sam Cassell,1610612756.0,Phoenix,Suns,PHX,0.0,0,,,,,,0.0,0,,,,,,0
+29600012,4,4,0,1,14:51 PM,11:43,O'Neal REBOUND (Off:0 Def:1),,,,,4.0,406,Shaquille O'Neal,1610612747.0,Los Angeles,Lakers,LAL,0.0,0,,,,,,0.0,0,,,,,,0
+29600012,5,2,1,1,14:51 PM,11:29,MISS Ceballos 26' 3PT Jump Shot,,,,,4.0,76,Cedric Ceballos,1610612747.0,Los Angeles,Lakers,LAL,0.0,0,,,,,,0.0,0,,,,,,0
