@@ -3,11 +3,13 @@ USE nba;
 
 CREATE TABLE IF NOT EXISTS franchises (
 	id INT UNSIGNED PRIMARY KEY,
-	most_recent_name VARCHAR(32) NOT NULL,
+	most_recent_name VARCHAR(64) NOT NULL,
 	year_founded INT UNSIGNED NOT NULL,
-	year_disbanded INT UNSIGNED,
+	year_folded INT UNSIGNED,
 	is_active BOOLEAN NOT NULL DEFAULT FALSE
 );
+
+CREATE INDEX idx_is_active ON franchises(is_active);
 
 CREATE TABLE IF NOT EXISTS teams (
 	id INT UNSIGNED PRIMARY KEY,
@@ -15,6 +17,17 @@ CREATE TABLE IF NOT EXISTS teams (
 	franchise_id INT UNSIGNED NOT NULL,
 	FOREIGN KEY (franchise_id) REFERENCES franchises(id)
 		ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS seasons (
+	id INT UNSIGNED PRIMARY KEY,
+	start_date DATE NOT NULL,
+	end_date DATE NOT NULL,
+	season_type ENUM (
+		'Preseason', 'Regular Season', 'All-Star Weekend', 'Playoffs'
+	) NOT NULL,
+	INDEX (start_date),
+	INDEX (season_type)
 );
 
 CREATE TABLE IF NOT EXISTS players (
