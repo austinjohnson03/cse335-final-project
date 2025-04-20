@@ -1,24 +1,67 @@
 import pandas as pd
 import os
+import numpy as np
 
 #TODO: create officials table
 #TODO: Join team_history.csv with team.csv
+#TODO: Regenerate game_summary.csv
 
 def main():
-   clean_files() 
-   create_teams_csv()
+    game_df = pd.read_csv('cleaned_data/game.csv')
+    team_df = pd.read_csv('cleaned_data/franchises.csv')
+    game_info_df = pd.read_csv('cleaned_data/game_info.csv')
+
+    game_info_df = game_info_df.drop(columns=["game_date"])
+
+    merged_df = pd.merge(game_df, game_info_df, on="game_id", how="outer")
+
+    convert_to_int_32 = [
+        "team_id_home", "team_id_away", "game_id", "min", "fgm_home", "fga_home",
+        "fg3m_home", "fg3a_home", "ftm_home", "fta_home", "oreb_home", "dreb_home",
+        "reb_home", "ast_home", "stl_home", "blk_home", "tov_home", "pf_home",
+        "pts_home", "plus_minus_home", "fgm_away", "fga_away", "fg3m_away",
+        "fg3a_away", "ftm_away", "fta_away", "oreb_away", "dreb_away", "reb_away",
+        "ast_away", "stl_away", "blk_away", "tov_away", "pf_away", "pts_away",
+        "plus_minus_away", "attendance"
+    ]
+
+    merged_df[convert_to_int_32] = merged_df[convert_to_int_32].astype('Int32')
+
+    merged_df["attendance"] = merged_df["attendance"].astype('Int32')
+
+    merged_df["game_date"] = pd.to_datetime(merged_df["game_date"], errors='coerce')
+    merged_df["game_date"] = merged_df["game_date"].dt.strftime("%Y-%m-%d")
+
+    merged_df = merged_df.sort_values(by=["game_date"], ascending=True)
+
+    ogs_df = pd.read_csv('cleaned_data/other_stats.csv')
+
+    merged_df = pd.merge(merged_df, ogs_df, on="game_id", how="outer")
+
+    merged_df.to_csv('cleaned_data/final-game.csv', index=False)
+
+
+
+
+
 
 
 def create_teams_csv():
     # Read in games data 
     df = pd.read_csv('cleaned_data/game.csv')
 
-    # Get unique team IDs from the DataFrame
-    team_ids = pd.Series(df['team_name_home'].tolist() + df['team_name_away'].tolist()).unique()
+    # Get unique teams from the DataFrame
+    team_names = pd.Series(df['team_name_home'].tolist() + df['team_name_away'].tolist()).unique()
 
-    team_ids.to_csv('cleaned_data/team_ids.csv', index=False, header=False)
+    with open('cleaned_data/teams.csv', 'w') as f:
+        # Write the header
+        f.write("id,team_name\n")
+        # Write each team name in a new line
+        for index, team in enumerate(team_names, start=1):
+            f.write(f"{index},{team}\n")
 
-    print("Created teams.csv with unique team IDs and placeholder names.")
+    print("Created teams.csv with unique team names.")
+
 
 
 def get_headers_and_data_types(file_path):
