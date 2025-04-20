@@ -45,3 +45,19 @@ CREATE TABLE IF NOT EXISTS players (
 		ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+CREATE TABLE IF NOT EXISTS seasons (
+	id INT UNSIGNED PRIMARY KEY,
+	season_year INT UNSIGNED NOT NULL,
+	start_date DATE NOT NULL,
+	end_date DATE NOT NULL,
+	season_type ENUM(
+		'Preseason', 'Regular Season', 'Playoffs'
+		) NOT NULL
+);
+
+
+CREATE TABLE IF NOT EXISTS games (
+	id INT UNSIGNED PRIMARY KEY,
+	season_id INT UNSIGNED NOT NULL,
+)
+

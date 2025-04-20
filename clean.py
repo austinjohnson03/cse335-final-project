@@ -1,49 +1,14 @@
 import pandas as pd
 import os
 import numpy as np
+import csv
 
 #TODO: create officials table
 #TODO: Join team_history.csv with team.csv
 #TODO: Regenerate game_summary.csv
 
 def main():
-    game_df = pd.read_csv('cleaned_data/game.csv')
-    team_df = pd.read_csv('cleaned_data/franchises.csv')
-    game_info_df = pd.read_csv('cleaned_data/game_info.csv')
-
-    game_info_df = game_info_df.drop(columns=["game_date"])
-
-    merged_df = pd.merge(game_df, game_info_df, on="game_id", how="outer")
-
-    convert_to_int_32 = [
-        "team_id_home", "team_id_away", "game_id", "min", "fgm_home", "fga_home",
-        "fg3m_home", "fg3a_home", "ftm_home", "fta_home", "oreb_home", "dreb_home",
-        "reb_home", "ast_home", "stl_home", "blk_home", "tov_home", "pf_home",
-        "pts_home", "plus_minus_home", "fgm_away", "fga_away", "fg3m_away",
-        "fg3a_away", "ftm_away", "fta_away", "oreb_away", "dreb_away", "reb_away",
-        "ast_away", "stl_away", "blk_away", "tov_away", "pf_away", "pts_away",
-        "plus_minus_away", "attendance"
-    ]
-
-    merged_df[convert_to_int_32] = merged_df[convert_to_int_32].astype('Int32')
-
-    merged_df["attendance"] = merged_df["attendance"].astype('Int32')
-
-    merged_df["game_date"] = pd.to_datetime(merged_df["game_date"], errors='coerce')
-    merged_df["game_date"] = merged_df["game_date"].dt.strftime("%Y-%m-%d")
-
-    merged_df = merged_df.sort_values(by=["game_date"], ascending=True)
-
-    ogs_df = pd.read_csv('cleaned_data/other_stats.csv')
-
-    merged_df = pd.merge(merged_df, ogs_df, on="game_id", how="outer")
-
-    merged_df.to_csv('cleaned_data/final-game.csv', index=False)
-
-
-
-
-
+    pass
 
 
 def create_teams_csv():
