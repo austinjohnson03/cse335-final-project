@@ -1,6 +1,0 @@
-game_date_est,game_sequence,game_id,game_status_id,game_status_text,gamecode,home_team_id,visitor_team_id,season,live_period,live_pc_time,natl_tv_broadcaster_abbreviation,live_period_time_bcast,wh_status
-1946-11-01 00:00:00,,24600001,3,,19461101/NYKHUS,1610610035,1610612752,1946,5,,,Q5  - ,1
-1946-11-02 00:00:00,,24600003,3,,19461102/PITBOM,1610610034,1610610031,1946,4,,,Q4  - ,1
-1946-11-02 00:00:00,,24600002,3,,19461102/BOSPRO,1610610032,1610612738,1946,4,,,Q4  - ,1
-1946-11-02 00:00:00,,24600004,3,,19461102/NYKCHS,1610610025,1610612752,1946,4,,,Q4  - ,1
-1946-11-02 00:00:00,,24600005,3,,19461102/WASDEF,1610610028,1610610036,1946,4,,,Q4  - ,1
