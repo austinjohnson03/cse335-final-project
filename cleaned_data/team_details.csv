@@ -1,24 +1,31 @@
-team_id,abbreviation,nickname,city,state,arena,arena_capacity,owner,general_manager,head_coach,d_league_affiliation,most_recent_name,year_founded,is_active
-18,ATL,Hawks,Atlanta,GA,State Farm Arena,18729,Tony Ressler,Travis Schlenk,Quin Snyder,College Park Skyhawks,Atlanta Hawks,1949,True
-25,CHI,Bulls,Chicago,IL,United Center,21711,Michael Reinsdorf,Arturas Karnisovas,Billy Donovan,Windy City Bulls,Chicago Bulls,1966,True
-38,DAL,Mavericks,Dallas,TX,American Airlines Center,19200,Mark Cuban,Nico Harrison,Jason Kidd,Texas Legends,Dallas Mavericks,1980,True
-35,DEN,Nuggets,Denver,CO,Ball Arena,,Stan Kroenke,Calvin Booth,Michael Malone,Grand Rapids Gold,Denver Nuggets,1976,True
-5,GSW,Warriors,San Fransisco,CA,Chase Center,,Joe Lacob,Bob Myers,Steve Kerr,Santa Cruz Warriors,Golden State Warriors,1946,True
-31,HOU,Rockets,Houston,TX,Toyota Center,18104,Tilman Fertitta,Rafael Stone,Ime Udoka,Rio Grande Valley Vipers,Los Angeles Clippers,1970,True
-15,LAL,Lakers,Los Angeles,CA,Crypto.com Arena,19060,Jeanie Buss,Rob Pelinka,Darvin Ham,South Bay Lakers,Los Angeles Lakers,1948,True
-40,MIA,Heat,Miami,FL,Kaseya Center,19600,Micky Arison,Pat Riley,Erik Spoelstra,Sioux Falls Skyforce,Miami Heat,1988,True
-28,MIL,Bucks,Milwaukee,WI,Fiserv Forum,17500,Wesley Edens & Marc Lasry,Jon Horst,Adrian Griffin,Wisconsin Herd,Milwaukee Bucks,1968,True
-41,MIN,Timberwolves,Minnesota,MN,Target Center,19356,Glen Taylor,Tim Connelly,Chris Finch,Iowa Wolves,Minnesota Timberwolves,1989,True
-34,BKN,Nets,Brooklyn,NY,Barclays Center,,Joe Tsai,Sean Marks,Jacque Vaughn,Long Island Nets,Brooklyn Nets,1976,True
-36,IND,Pacers,Indiana,IN,Gainbridge Fieldhouse ,18345,Herb Simon,Kevin Pritchard,Rick Carlisle,Fort Wayne Mad Ants,Indianapolis Pacers,1976,True
-21,PHI,76ers,Philadelphia,PA,Wells Fargo Center,,Joshua Harris & David Blitzer,Elton Brand,Nick Nurse,Delaware Blue Coats,Philadelphia 76ers,1949,True
-29,PHX,Suns,Phoenix,AZ,Footprint Center,,Mat Ishbia,James Jones,Frank Vogel,No Affiliate,Phoenix Suns,1968,True
-32,POR,Trail Blazers,Portland,OR,Moda Center,19980,Jody Allen,Joe Cronin,Chauncey Billups,No Affiliate,Portland Trail Blazers,1970,True
-37,SAS,Spurs,San Antonio,TX,AT&T Center,18694,Peter Holt,Brian Wright,Gregg Popovich,Austin Spurs,San Antonio Spurs,1976,True
-27,OKC,Thunder,Oklahoma City,OK,Paycom Center,,Clay Bennett,Sam Presti,Mark Daigneault,Oklahoma City Blue,Oklahoma City Thunder,1967,True
-44,TOR,Raptors,Toronto,ON,Scotiabank Arena,,Lawrence Tanenbaum,Masai Ujiri,,Raptors 905,Toronto Raptors,1995,True
-33,UTA,Jazz,Salt Lake City,UT,Delta Center,,Ryan Smith,Justin Zanik,Will Hardy,Salt Lake City Stars,Utah Jazz,1974,True
-43,MEM,Grizzlies,Memphis,TN,FedExForum,18119,Robert Pera,Zach Kleiman,Taylor Jenkins,Memphis Hustle,Memphis Grizzlies,1995,True
-24,WAS,Wizards,Washington,DC,Capital One Arena,20647,Ted Leonsis,Tommy Sheppard,Wes Unseld,Capital City Go-Go,Washington Wizards,1961,True
-13,DET,Pistons,Detroit,MI,Little Caesars Arena,,Tom Gores,Ed Stefanski,Monty Williams,Motor City Cruise,Detroit Pistons,1948,True
-39,CHA,Hornets,Charlotte,NC,Spectrum Center,19026,Michael Jordan,Mitch Kupchak,Steve Clifford,Greensboro Swarm,Charlotte Hornets,1988,True
+team_id,abbreviation,nickname,city,state,arena,arena_capacity,owner,general_manager,head_coach,d_league_affiliation,most_recent_name
+1,BOS,Celtics,Boston,MA,TD Garden,19580,Bill Chisholm,Brad Stevens,Joe Mazulla,Maine Celtics,Boston Celtics
+5,GSW,Warriors,San Fransisco,CA,Chase Center,18064,Joe Lacob,Bob Myers,Steve Kerr,Santa Cruz Warriors,Golden State Warriors
+6,NYK,Knicks,New York,NY,Madison Square Garden,19500,James Dolan,Scott Perry,Tom Thibodeau,West Chester Knicks,New York Knicks
+13,DET,Pistons,Detroit,MI,Little Caesars Arena,20332,Tom Gores,Ed Stefanski,Monty Williams,Motor City Cruise,Detroit Pistons
+15,LAL,Lakers,Los Angeles,CA,Crypto.com Arena,19060,Jeanie Buss,Rob Pelinka,Darvin Ham,South Bay Lakers,Los Angeles Lakers
+16,SAC,Kings,Sacremento,CA,Golden 1 Center,17607,Vivek Ranadive,Monte McNair,Doug Christie,Stockton Kings,Sacramento Kings
+18,ATL,Hawks,Atlanta,GA,State Farm Arena,18729,Tony Ressler,Travis Schlenk,Quin Snyder,College Park Skyhawks,Atlanta Hawks
+21,PHI,76ers,Philadelphia,PA,Wells Fargo Center,21000,Joshua Harris & David Blitzer,Elton Brand,Nick Nurse,Delaware Blue Coats,Philadelphia 76ers
+24,WAS,Wizards,Washington,DC,Capital One Arena,20647,Ted Leonsis,Tommy Sheppard,Wes Unseld,Capital City Go-Go,Washington Wizards
+25,CHI,Bulls,Chicago,IL,United Center,21711,Michael Reinsdorf,Arturas Karnisovas,Billy Donovan,Windy City Bulls,Chicago Bulls
+27,OKC,Thunder,Oklahoma City,OK,Paycom Center,18203,Clay Bennett,Sam Presti,Mark Daigneault,Oklahoma City Blue,Oklahoma City Thunder
+28,MIL,Bucks,Milwaukee,WI,Fiserv Forum,17500,Wesley Edens & Marc Lasry,Jon Horst,Adrian Griffin,Wisconsin Herd,Milwaukee Bucks
+29,PHX,Suns,Phoenix,AZ,Footprint Center,18422,Mat Ishbia,James Jones,Frank Vogel,No Affiliate,Phoenix Suns
+30,CLE,Cavaliers,Cleveland,OH,Rocket Arena,19432,Dan Gilbert,Mike Gansey,Kenny Atkinson,Cleveland Charge,Cleveland Cavaliers
+31,HOU,Rockets,Houston,TX,Toyota Center,18104,Tilman Fertitta,Rafael Stone,Ime Udoka,Rio Grande Valley Vipers,Los Angeles Clippers
+31,LAC,Clippers,Inglewood,CA,Intuit Dome,18000,Steve Balmer,Trent Redden,Tyron Lue,San Diego Clippers,Los Angeles Clippers
+32,POR,Trail Blazers,Portland,OR,Moda Center,19980,Jody Allen,Joe Cronin,Chauncey Billups,No Affiliate,Portland Trail Blazers
+33,UTA,Jazz,Salt Lake City,UT,Delta Center,20000,Ryan Smith,Justin Zanik,Will Hardy,Salt Lake City Stars,Utah Jazz
+34,BKN,Nets,Brooklyn,NY,Barclays Center,19000,Joe Tsai,Sean Marks,Jacque Vaughn,Long Island Nets,Brooklyn Nets
+35,DEN,Nuggets,Denver,CO,Ball Arena,21000,Stan Kroenke,Calvin Booth,Michael Malone,Grand Rapids Gold,Denver Nuggets
+36,IND,Pacers,Indiana,IN,Gainbridge Fieldhouse,18345,Herb Simon,Kevin Pritchard,Rick Carlisle,Fort Wayne Mad Ants,Indiana Pacers
+37,SAS,Spurs,San Antonio,TX,AT&T Center,18694,Peter Holt,Brian Wright,Gregg Popovich,Austin Spurs,San Antonio Spurs
+38,DAL,Mavericks,Dallas,TX,American Airlines Center,19200,Mark Cuban,Nico Harrison,Jason Kidd,Texas Legends,Dallas Mavericks
+39,CHA,Hornets,Charlotte,NC,Spectrum Center,19026,Michael Jordan,Mitch Kupchak,Steve Clifford,Greensboro Swarm,Charlotte Hornets
+40,MIA,Heat,Miami,FL,Kaseya Center,19600,Micky Arison,Pat Riley,Erik Spoelstra,Sioux Falls Skyforce,Miami Heat
+41,MIN,Timberwolves,Minnesota,MN,Target Center,19356,Glen Taylor,Tim Connelly,Chris Finch,Iowa Wolves,Minnesota Timberwolves
+42,ORL,Magic,Orlando,FL,Kia Center,20000,Dan DeVos,Anthony Parker,Jamahl Mosley,Osceola Magic,Orlando Magic
+43,MEM,Grizzlies,Memphis,TN,FedExForum,18119,Robert Pera,Zach Kleiman,Taylor Jenkins,Memphis Hustle,Memphis Grizzlies
+44,TOR,Raptors,Toronto,ON,Scotiabank Arena,19800,Lawrence Tanenbaum,Masai Ujiri,,Raptors 905,Toronto Raptors
+45,NO,Pelicans,New Orleans,LA,Smoothie King Center,17791,Gayle Benson,Bryson Graham,Willie Green,Birmingham Squadron,New Orleans Pelicans

@@ -8,7 +8,15 @@ import csv
 #TODO: Regenerate game_summary.csv
 
 def main():
-    pass
+    df = pd.read_csv('cleaned_data/team_details.csv')
+
+    df = df.sort_values(by='team_id')
+
+    df["arena_capacity"] = df["arena_capacity"].astype('Int32')
+
+    df.to_csv('cleaned_data/team_details.csv', index=False)
+
+
 
 
 def create_teams_csv():
