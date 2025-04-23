@@ -2,19 +2,46 @@ import pandas as pd
 import os
 import numpy as np
 import csv
+from typing import Dict
 
 #TODO: create officials table
-#TODO: Join team_history.csv with team.csv
-#TODO: Regenerate game_summary.csv
 
 def main():
-    df = pd.read_csv('cleaned_data/team_details.csv')
+    df = pd.read_csv('test.csv',
+                     dtype={
+                         'period_number': 'Int16',
+                         'points': 'Int16'
+                     })
+    
+    game_teams_df = pd.read_csv('cleaned_data/game_teams.csv')
 
-    df = df.sort_values(by='team_id')
+    game_map: Dict[int, Dict[str, int]] = {}
 
-    df["arena_capacity"] = df["arena_capacity"].astype('Int32')
+    # Iterate through the rows of the DataFrame
+    for _, row in game_teams_df.iterrows():
+        game_id = row["game_id"]
+        team_id = row["team_id"]
+        is_home = row["is_home"]
+        
+        # Initialize the entry for this game_id if it doesn't exist
+        if game_id not in game_map:
+            game_map[game_id] = {"home": None, "away": None}
 
-    df.to_csv('cleaned_data/team_details.csv', index=False)
+        # Assign team_id based on whether it is the home or away team
+        if is_home:
+            game_map[game_id]["home"] = team_id
+        else:
+            game_map[game_id]["away"] = team_id
+
+
+    df['team_id'] = df.apply(
+    lambda row: game_map[row['game_id']][row['team']], axis=1
+    )
+
+    df = df.drop(columns=['team'])
+
+    df.to_csv('line_score.csv', index=False)
+
 
 
 
