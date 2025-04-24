@@ -7,44 +7,11 @@ from typing import Dict
 #TODO: create officials table
 
 def main():
-    df = pd.read_csv('test.csv',
-                     dtype={
-                         'period_number': 'Int16',
-                         'points': 'Int16'
-                     })
-    
-    game_teams_df = pd.read_csv('cleaned_data/game_teams.csv')
+    df = pd.read_csv('original_data/officials.csv')
 
-    game_map: Dict[int, Dict[str, int]] = {}
+    df = df.drop(columns=['first_name', 'last_name', 'jersey_num'])
 
-    # Iterate through the rows of the DataFrame
-    for _, row in game_teams_df.iterrows():
-        game_id = row["game_id"]
-        team_id = row["team_id"]
-        is_home = row["is_home"]
-        
-        # Initialize the entry for this game_id if it doesn't exist
-        if game_id not in game_map:
-            game_map[game_id] = {"home": None, "away": None}
-
-        # Assign team_id based on whether it is the home or away team
-        if is_home:
-            game_map[game_id]["home"] = team_id
-        else:
-            game_map[game_id]["away"] = team_id
-
-
-    df['team_id'] = df.apply(
-    lambda row: game_map[row['game_id']][row['team']], axis=1
-    )
-
-    df = df.drop(columns=['team'])
-
-    df.to_csv('line_score.csv', index=False)
-
-
-
-
+    df.to_csv('cleaned_data/game_officials.csv', index=False) 
 
 def create_teams_csv():
     # Read in games data 
