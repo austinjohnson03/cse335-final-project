@@ -1,0 +1,46 @@
+id,most_recent_name,year_founded,year_disbanded,is_active
+1,Boston Celtics,1946,,True
+2,Chicago Stags,1946,1949,False
+3,Cleveland Rebels,1946,1946,False
+4,Detroit Falcons,1946,1946,False
+5,Golden State Warriors,1946,,True
+6,New York Knicks,1946,,True
+7,Pittsburgh Ironmen,1946,1946,False
+8,Providence Steamrollers,1946,1948,False
+9,St. Louis Bombers,1946,1949,False
+10,Toronto Huskies,1946,1946,False
+11,Washington Capitols,1946,1950,False
+12,Baltimore Bullets,1947,1954,False
+13,Detroit Pistons,1948,,True
+14,Indianapolis Jets,1948,1948,False
+15,Los Angeles Lakers,1948,,True
+16,Sacramento Kings,1948,,True
+17,Anderson Packers,1949,1949,False
+18,Atlanta Hawks,1949,,True
+19,Denver Nuggets,1949,1949,False
+20,Indianapolis Olympians,1949,1952,False
+21,Philadelphia 76ers,1949,,True
+22,Sheboygan Red Skins,1949,1949,False
+23,Waterloo Hawks,1949,1949,False
+24,Washington Wizards,1961,,True
+25,Chicago Bulls,1966,,True
+26,Houston Rockets,1967,,True
+27,Oklahoma City Thunder,1967,,True
+28,Milwaukee Bucks,1968,,True
+29,Phoenix Suns,1968,,True
+30,Cleveland Cavaliers,1970,,True
+31,Los Angeles Clippers,1970,,True
+32,Portland Trail Blazers,1970,,True
+33,Utah Jazz,1974,,True
+34,Brooklyn Nets,1976,,True
+35,Denver Nuggets,1976,,True
+36,Indianapolis Pacers,1976,,True
+37,San Antonio Spurs,1976,,True
+38,Dallas Mavericks,1980,,True
+39,Charlotte Hornets,1988,,True
+40,Miami Heat,1988,,True
+41,Minnesota Timberwolves,1989,,True
+42,Orlando Magic,1989,,True
+43,Memphis Grizzlies,1995,,True
+44,Toronto Raptors,1995,,True
+45,New Orleans Pelicans,2002,,True
