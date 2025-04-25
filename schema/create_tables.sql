@@ -150,7 +150,7 @@ CREATE TABLE IF NOT EXISTS officials (
   id INT UNSIGNED PRIMARY KEY,
   first_name VARCHAR(24) NOT NULL,
   last_name VARCHAR(32) NOT NULL,
-  jersey_num INT UNSIGNED NOT NULL CHECK (jersey_num BETWEEN 0 AND 99)
+  jersey_num INT UNSIGNED
 );
 
 CREATE TABLE IF NOT EXISTS game_officials ( 
