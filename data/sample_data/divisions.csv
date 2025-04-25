@@ -1,0 +1,11 @@
+id,name,conference_id
+1,Eastern,NULL
+2,Western,NULL
+3,Central,NULL
+4,Atlantic,1
+5,Central,1
+6,Midwest,2
+7,Pacific,2
+8,Southeast,1
+9,Northwest,2
+10,Southwest,2

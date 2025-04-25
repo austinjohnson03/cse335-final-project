@@ -1,0 +1,331 @@
+id,player_id,name,season,round_number,round_pick,overall_pick,draft_type,team_id,organization,organization_type
+61310,1629028,"Deandre Ayton",2018,1,1,1,Draft,29,Arizona,College/University
+61311,1629029,"Luka Doncic",2018,1,3,3,Draft,18,"Real Madrid Baloncesto (Spain)","Other Team/Club"
+61312,1628991,"Jaren Jackson Jr.",2018,1,4,4,Draft,43,"Michigan State",College/University
+61313,1629027,"Trae Young",2018,1,5,5,Draft,38,Oklahoma,College/University
+61314,1628964,"Mo Bamba",2018,1,6,6,Draft,42,Texas,College/University
+61315,1628976,"Wendell Carter Jr.",2018,1,7,7,Draft,25,Duke,College/University
+61316,1629012,"Collin Sexton",2018,1,8,8,Draft,30,Alabama,College/University
+61317,1628995,"Kevin Knox II",2018,1,9,9,Draft,6,Kentucky,College/University
+61318,1628969,"Mikal Bridges",2018,1,10,10,Draft,21,Villanova,College/University
+61319,1628983,"Shai Gilgeous-Alexander",2018,1,11,11,Draft,39,Kentucky,College/University
+61320,1629008,"Michael Porter Jr.",2018,1,14,14,Draft,35,Missouri,College/University
+61321,1628972,"Troy Brown Jr.",2018,1,15,15,Draft,24,Oregon,College/University
+61322,1629015,"Zhaire Smith",2018,1,16,16,Draft,29,"Texas Tech",College/University
+61323,1628978,"Donte DiVincenzo",2018,1,17,17,Draft,28,Villanova,College/University
+61324,1629022,"Lonnie Walker IV",2018,1,18,18,Draft,37,"Miami (FL)",College/University
+61325,1628989,"Kevin Huerter",2018,1,19,19,Draft,18,Maryland,College/University
+61326,1629006,"Josh Okogie",2018,1,20,20,Draft,41,"Georgia Tech",College/University
+61327,1628960,"Grayson Allen",2018,1,21,21,Draft,33,Duke,College/University
+61328,1628990,"Chandler Hutchison",2018,1,22,22,Draft,25,"Boise State",College/University
+61329,1628988,"Aaron Holiday",2018,1,23,23,Draft,36,"California-Los Angeles",College/University
+61330,1629014,"Anfernee Simons",2018,1,24,24,Draft,32,"IMG Academy","High School"
+61331,1629021,"Moritz Wagner",2018,1,25,25,Draft,15,Michigan,College/University
+61332,1629013,"Landry Shamet",2018,1,26,26,Draft,21,"Wichita State",College/University
+61333,1629057,"Robert Williams III",2018,1,27,27,Draft,1,"Texas A&M",College/University
+61334,1628980,"Jacob Evans",2018,1,28,28,Draft,5,Cincinnati,College/University
+61335,1629058,"Dzanan Musa",2018,1,29,29,Draft,34,"KK Cedevita (Croatia)","Other Team/Club"
+61336,1629016,"Omari Spellman",2018,1,30,30,Draft,18,Villanova,College/University
+61337,1629059,"Elie Okobo",2018,2,1,31,Draft,29,"Elan Bearnais Pau-Orthez (France)","Other Team/Club"
+61338,1628975,"Jevon Carter",2018,2,2,32,Draft,43,"West Virginia",College/University
+61339,1628973,"Jalen Brunson",2018,2,3,33,Draft,38,Villanova,College/University
+61340,1628984,"Devonte' Graham",2018,2,4,34,Draft,18,Kansas,College/University
+61341,1628982,"Melvin Frazier Jr.",2018,2,5,35,Draft,42,Tulane,College/University
+61342,1629011,"Mitchell Robinson",2018,2,6,36,Draft,6,NULL,NULL
+61343,1629017,"Khyri Thomas",2018,2,8,38,Draft,21,Creighton,College/University
+61344,1629067,"Isaac Bonga",2018,2,9,39,Draft,21,"Fraport Skyliners (Germany)","Other Team/Club"
+61345,1629066,"Rodions Kurucs",2018,2,10,40,Draft,34,"FC Barcelona Basquet (Spain)","Other Team/Club"
+61346,1629020,"Jarred Vanderbilt",2018,2,11,41,Draft,42,Kentucky,College/University
+61347,1628971,"Bruce Brown",2018,2,12,42,Draft,13,"Miami (FL)",College/University
+61348,1628992,"Justin Jackson",2018,2,13,43,Draft,35,Maryland,College/University
+61349,1629068,"Issuf Sanon",2018,2,14,44,Draft,24,"KK Olimpija (Slovenia)","Other Team/Club"
+61350,1628977,"Hamidou Diallo",2018,2,15,45,Draft,34,Kentucky,College/University
+61351,1629001,"De'Anthony Melton",2018,2,16,46,Draft,31,"Southern California",College/University
+61352,1629004,"Svi Mykhailiuk",2018,2,17,47,Draft,15,Kansas,College/University
+61353,1628966,"Keita Bates-Diop",2018,2,18,48,Draft,41,"Ohio State",College/University
+61354,1629002,"Chimezie Metu",2018,2,19,49,Draft,28,"Southern California",College/University
+61355,1628993,"Alize Johnson",2018,2,20,50,Draft,36,"Missouri State",College/University
+61356,1628974,"Tony Carr",2018,2,21,51,Draft,45,"Penn State",College/University
+61357,1629053,"Vincent Edwards",2018,2,22,52,Draft,33,Purdue,College/University
+61358,1628985,"Devon Hall",2018,2,23,53,Draft,27,Virginia,College/University
+61359,1629003,"Shake Milton",2018,2,24,54,Draft,38,"Southern Methodist",College/University
+61360,1629083,"Arnoldas Kulboka",2018,2,25,55,Draft,39,"Brose Bamberg (Germany)","Other Team/Club"
+61361,1629034,"Ray Spalding",2018,2,26,56,Draft,21,Louisville,College/University
+61362,1628987,"Kevin Hervey",2018,2,27,57,Draft,27,Texas-Arlington,College/University
+61363,1629118,"Thomas Welsh",2018,2,28,58,Draft,35,"California-Los Angeles",College/University
+61364,1628994,"George King",2018,2,29,59,Draft,29,Colorado,College/University
+61365,1628961,"Kostas Antetokounmpo",2018,2,30,60,Draft,21,Dayton,College/University
+61366,1629627,"Zion Williamson",2019,1,1,1,Draft,45,Duke,College/University
+61367,1629630,"Ja Morant",2019,1,2,2,Draft,43,"Murray State",College/University
+61368,1629628,"RJ Barrett",2019,1,3,3,Draft,6,Duke,College/University
+61369,1629631,"De'Andre Hunter",2019,1,4,4,Draft,15,Virginia,College/University
+61370,1629636,"Darius Garland",2019,1,5,5,Draft,30,Vanderbilt,College/University
+61371,1629633,"Jarrett Culver",2019,1,6,6,Draft,29,"Texas Tech",College/University
+61372,1629632,"Coby White",2019,1,7,7,Draft,25,"North Carolina",College/University
+61373,1629637,"Jaxson Hayes",2019,1,8,8,Draft,18,Texas,College/University
+61374,1629060,"Rui Hachimura",2019,1,9,9,Draft,24,Gonzaga,College/University
+61375,1629629,"Cam Reddish",2019,1,10,10,Draft,18,Duke,College/University
+61376,1629661,"Cameron Johnson",2019,1,11,11,Draft,41,"North Carolina",College/University
+61377,1629023,"P.J. Washington",2019,1,12,12,Draft,39,Kentucky,College/University
+61378,1629639,"Tyler Herro",2019,1,13,13,Draft,40,Kentucky,College/University
+61379,1629641,"Romeo Langford",2019,1,14,14,Draft,1,Indiana,College/University
+61380,1629635,"Sekou Doumbouya",2019,1,15,15,Draft,13,"Limoges CSP (France)","Other Team/Club"
+61381,1629643,"Chuma Okeke",2019,1,16,16,Draft,42,Auburn,College/University
+61382,1629638,"Nickeil Alexander-Walker",2019,1,17,17,Draft,34,"Virginia Tech",College/University
+61383,1629048,"Goga Bitadze",2019,1,18,18,Draft,36,"KK Mega Leks (Serbia)","Other Team/Club"
+61384,1629677,"Luka Samanic",2019,1,19,19,Draft,37,"KK Olimpija (Slovenia)","Other Team/Club"
+61385,1629680,"Matisse Thybulle",2019,1,20,20,Draft,1,Washington,College/University
+61386,1629634,"Brandon Clarke",2019,1,21,21,Draft,27,Gonzaga,College/University
+61387,1629684,"Grant Williams",2019,1,22,22,Draft,1,Tennessee,College/University
+61388,1629647,"Darius Bazley",2019,1,23,23,Draft,33,Princeton,"High School"
+61389,1629660,"Ty Jerome",2019,1,24,24,Draft,21,Virginia,College/University
+61390,1629642,"Nassir Little",2019,1,25,25,Draft,32,"North Carolina",College/University
+61391,1629685,"Dylan Windler",2019,1,26,26,Draft,30,Belmont,College/University
+61392,1629662,"Mfiondu Kabengele",2019,1,27,27,Draft,34,"Florida State",College/University
+61393,1629673,"Jordan Poole",2019,1,28,28,Draft,5,Michigan,College/University
+61394,1629640,"Keldon Johnson",2019,1,29,29,Draft,37,Kentucky,College/University
+61395,1629645,"Kevin Porter Jr.",2019,1,30,30,Draft,28,"Southern California",College/University
+61396,1629651,"Nic Claxton",2019,2,1,31,Draft,34,Georgia,College/University
+61397,1629644,"KZ Okpala",2019,2,2,32,Draft,29,Stanford,College/University
+61398,1629035,"Carsen Edwards",2019,2,3,33,Draft,21,Purdue,College/University
+61399,1628981,"Bruno Fernando",2019,2,4,34,Draft,21,Maryland,College/University
+61400,1629712,"Didi Louzada",2019,2,5,35,Draft,18,"Sesi Franca (Brazil)","Other Team/Club"
+61401,1628998,"Cody Martin",2019,2,6,36,Draft,39,"North Carolina State",College/University
+61402,1629686,"Deividas Sirvydis",2019,2,7,37,Draft,38,"BC Lietuvos rytas (Lithuania)","Other Team/Club"
+61403,1629655,"Daniel Gafford",2019,2,8,38,Draft,25,Arkansas,College/University
+61404,1629346,"Alen Smailagic",2019,2,9,39,Draft,45,"Santa Cruz (G League)","Other Team/Club"
+61405,1629672,"Eric Paschall",2019,2,11,41,Draft,5,Villanova,College/University
+61406,1629678,"Admiral Schofield",2019,2,12,42,Draft,21,Tennessee,College/University
+61407,1629669,"Jaylen Nowell",2019,2,13,43,Draft,41,Washington,College/University
+61408,1629626,"Bol Bol",2019,2,14,44,Draft,40,Oregon,College/University
+61409,1629676,"Isaiah Roby",2019,2,15,45,Draft,13,Nebraska,College/University
+61410,1629659,"Talen Horton-Tucker",2019,2,16,46,Draft,42,"Iowa State",College/University
+61411,1629683,"Quinndary Weatherspoon",2019,2,19,49,Draft,37,"Mississippi State",College/University
+61412,1629714,"Jarrell Brantley",2019,2,20,50,Draft,36,"College of Charleston",College/University
+61413,1629682,"Tremont Waters",2019,2,21,51,Draft,1,"Louisiana State",College/University
+61414,1629667,"Jalen McDaniels",2019,2,22,52,Draft,39,"San Diego",College/University
+61415,1629625,"Justin Wright-Foreman",2019,2,23,53,Draft,33,Hofstra,College/University
+61416,1629621,"Marial Shayok",2019,2,24,54,Draft,21,Virginia,College/University
+61417,1629657,"Kyle Guy",2019,2,25,55,Draft,6,Virginia,College/University
+61418,1629648,"Jordan Bone",2019,2,27,57,Draft,45,Tennessee,College/University
+61419,1629671,"Miye Oni",2019,2,28,58,Draft,5,Yale,College/University
+61420,1629608,"Dewan Hernandez",2019,2,29,59,Draft,44,"Miami (FL)",College/University
+61421,1630162,"Anthony Edwards",2020,1,1,1,Draft,41,Georgia,College/University
+61422,1630164,"James Wiseman",2020,1,2,2,Draft,5,Memphis,College/University
+61423,1630163,"LaMelo Ball",2020,1,3,3,Draft,39,"Illawarra (Australia)","Other Team/Club"
+61424,1630172,"Patrick Williams",2020,1,4,4,Draft,25,"Florida State",College/University
+61425,1630171,"Isaac Okoro",2020,1,5,5,Draft,30,Auburn,College/University
+61426,1630168,"Onyeka Okongwu",2020,1,6,6,Draft,18,"Southern California",College/University
+61427,1630165,"Killian Hayes",2020,1,7,7,Draft,13,"Ratiopharm Ulm (Germany)","Other Team/Club"
+61428,1630167,"Obi Toppin",2020,1,8,8,Draft,6,Dayton,College/University
+61429,1630166,"Deni Avdija",2020,1,9,9,Draft,24,"Maccabi Tel Aviv B.C. (Israel)","Other Team/Club"
+61430,1630188,"Jalen Smith",2020,1,10,10,Draft,29,Maryland,College/University
+61431,1630170,"Devin Vassell",2020,1,11,11,Draft,37,"Florida State",College/University
+61432,1630184,"Kira Lewis Jr.",2020,1,13,13,Draft,45,Alabama,College/University
+61433,1630174,"Aaron Nesmith",2020,1,14,14,Draft,1,Vanderbilt,College/University
+61434,1630175,"Cole Anthony",2020,1,15,15,Draft,42,"North Carolina",College/University
+61435,1630191,"Isaiah Stewart",2020,1,16,16,Draft,32,Washington,College/University
+61436,1630197,"Aleksej Pokusevski",2020,1,17,17,Draft,41,"Olympiacos B.C. (Greece)","Other Team/Club"
+61437,1630182,"Josh Green",2020,1,18,18,Draft,38,Arizona,College/University
+61438,1630180,"Saddiq Bey",2020,1,19,19,Draft,34,Villanova,College/University
+61439,1630173,"Precious Achiuwa",2020,1,20,20,Draft,40,Memphis,College/University
+61440,1630178,"Tyrese Maxey",2020,1,21,21,Draft,21,Kentucky,College/University
+61441,1630192,"Zeke Nnaji",2020,1,22,22,Draft,35,Arizona,College/University
+61442,1630195,"Leandro Bolmaro",2020,1,23,23,Draft,6,"FC Barcelona Basquet (Spain)","Other Team/Club"
+61443,1630181,"R.J. Hampton",2020,1,24,24,Draft,28,"Breakers (New Zealand)","Other Team/Club"
+61444,1630193,"Immanuel Quickley",2020,1,25,25,Draft,27,Kentucky,College/University
+61445,1630202,"Payton Pritchard",2020,1,26,26,Draft,1,Oregon,College/University
+61446,1628962,"Udoka Azubuike",2020,1,27,27,Draft,33,Kansas,College/University
+61447,1630183,"Jaden McDaniels",2020,1,28,28,Draft,15,Washington,College/University
+61448,1630201,"Malachi Flynn",2020,1,29,29,Draft,44,"San Diego State",College/University
+61449,1630217,"Desmond Bane",2020,1,30,30,Draft,1,"Texas Christian",College/University
+61450,1630179,"Tyrell Terry",2020,2,1,31,Draft,38,Stanford,College/University
+61451,1630176,"Vernon Carey Jr.",2020,2,2,32,Draft,39,Duke,College/University
+61452,1630187,"Daniel Oturu",2020,2,3,33,Draft,41,Minnesota,College/University
+61453,1630177,"Theo Maledon",2020,2,4,34,Draft,21,"ASVEL Basket (France)","Other Team/Club"
+61454,1630189,"Tyler Bey",2020,2,6,36,Draft,21,Colorado,College/University
+61455,1630249,"Vit Krejci",2020,2,7,37,Draft,24,"Basket Zaragoza 2002 (Spain)","Other Team/Club"
+61456,1630240,"Saben Lee",2020,2,8,38,Draft,33,Vanderbilt,College/University
+61457,1630190,"Elijah Hughes",2020,2,9,39,Draft,45,Syracuse,College/University
+61458,1630218,"Robert Woodard II",2020,2,10,40,Draft,43,"Mississippi State",College/University
+61459,1630200,"Tre Jones",2020,2,11,41,Draft,37,Duke,College/University
+61460,1630208,"Nick Richards",2020,2,12,42,Draft,45,Kentucky,College/University
+61461,1630250,"Marko Simonovic",2020,2,14,44,Draft,25,"KK Mega Leks (Serbia)","Other Team/Club"
+61462,1629670,"Jordan Nwora",2020,2,15,45,Draft,28,Louisville,College/University
+61463,1629604,"CJ Elleby",2020,2,16,46,Draft,32,"Washington State",College/University
+61464,1630236,"Yam Madar",2020,2,17,47,Draft,1,"Hapoel Galil Elyon (Israel)","Other Team/Club"
+61465,1630185,"Nico Mannion",2020,2,18,48,Draft,5,Arizona,College/University
+61466,1630198,"Isaiah Joe",2020,2,19,49,Draft,21,Arkansas,College/University
+61467,1630219,"Skylar Mays",2020,2,20,50,Draft,18,"Louisiana State",College/University
+61468,1630251,"Justinian Jessup",2020,2,21,51,Draft,5,"Boise State",College/University
+61469,1630216,"Cassius Winston",2020,2,23,53,Draft,27,"Michigan State",College/University
+61470,1630199,"Cassius Stanley",2020,2,24,54,Draft,36,Duke,College/University
+61471,1630206,"Jay Scrubb",2020,2,25,55,Draft,34,"John A. Logan",College/University
+61472,1630203,"Grant Riller",2020,2,26,56,Draft,39,"College of Charleston",College/University
+61473,1630194,"Paul Reed",2020,2,28,58,Draft,21,DePaul,College/University
+61474,1630223,"Jalen Harris",2020,2,29,59,Draft,44,Nevada-Reno,College/University
+61475,1630241,"Sam Merrill",2020,2,30,60,Draft,45,"Utah State",College/University
+61476,1630595,"Cade Cunningham",2021,1,1,1,Draft,13,"Oklahoma State",College/University
+61477,1630224,"Jalen Green",2021,1,2,2,Draft,31,"Ignite (G League)","Other Team/Club"
+61478,1630596,"Evan Mobley",2021,1,3,3,Draft,30,"Southern California",College/University
+61479,1630567,"Scottie Barnes",2021,1,4,4,Draft,44,"Florida State",College/University
+61480,1630591,"Jalen Suggs",2021,1,5,5,Draft,42,Gonzaga,College/University
+61481,1630581,"Josh Giddey",2021,1,6,6,Draft,27,"NBA Global Academy (Australia)","Other Team/Club"
+61482,1630228,"Jonathan Kuminga",2021,1,7,7,Draft,5,"Ignite (G League)","Other Team/Club"
+61483,1630532,"Franz Wagner",2021,1,8,8,Draft,42,Michigan,College/University
+61484,1630533,"Ziaire Williams",2021,1,10,10,Draft,45,Stanford,College/University
+61485,1630547,"James Bouknight",2021,1,11,11,Draft,39,Connecticut,College/University
+61486,1630563,"Joshua Primo",2021,1,12,12,Draft,37,Alabama,College/University
+61487,1630537,"Chris Duarte",2021,1,13,13,Draft,36,Oregon,College/University
+61488,1630541,"Moses Moody",2021,1,14,14,Draft,5,Arkansas,College/University
+61489,1630557,"Corey Kispert",2021,1,15,15,Draft,24,Gonzaga,College/University
+61490,1630578,"Alperen Sengun",2021,1,16,16,Draft,27,"Besiktas (Turkey)","Other Team/Club"
+61491,1630530,"Trey Murphy III",2021,1,17,17,Draft,43,Virginia,College/University
+61492,1630544,"Tre Mann",2021,1,18,18,Draft,27,Florida,College/University
+61493,1630539,"Kai Jones",2021,1,19,19,Draft,6,Texas,College/University
+61494,1630552,"Jalen Johnson",2021,1,20,20,Draft,18,Duke,College/University
+61495,1630553,"Keon Johnson",2021,1,21,21,Draft,6,Tennessee,College/University
+61496,1630543,"Isaiah Jackson",2021,1,22,22,Draft,15,Kentucky,College/University
+61497,1630586,"Usman Garuba",2021,1,23,23,Draft,31,"Madrid (ESP)",College/University
+61498,1630528,"Josh Christopher",2021,1,24,24,Draft,31,"Arizona State",College/University
+61499,1630538,"Bones Hyland",2021,1,26,26,Draft,35,"Virginia Commonwealth",College/University
+61500,1630560,"Cam Thomas",2021,1,27,27,Draft,34,"Louisiana State",College/University
+61501,1630531,"Jaden Springer",2021,1,28,28,Draft,21,Tennessee,College/University
+61502,1630549,"Day'Ron Sharpe",2021,1,29,29,Draft,29,"North Carolina",College/University
+61503,1630583,"Santi Aldama",2021,1,30,30,Draft,33,Loyola-Maryland,College/University
+61504,1630225,"Isaiah Todd",2021,2,1,31,Draft,28,"Ignite (G League)","Other Team/Club"
+61505,1630526,"Jeremiah Robinson-Earl",2021,2,2,32,Draft,6,Villanova,College/University
+61506,1630554,"Jason Preston",2021,2,3,33,Draft,42,Ohio,College/University
+61507,1630599,"Rokas Jokubaitis",2021,2,4,34,Draft,27,"BC Zalgiris (Lithuania)","Other Team/Club"
+61508,1630529,"Herbert Jones",2021,2,5,35,Draft,45,Alabama,College/University
+61509,1630540,"Miles McBride",2021,2,6,36,Draft,27,"West Virginia",College/University
+61510,1630550,"JT Thor",2021,2,7,37,Draft,13,Auburn,College/University
+61511,1630245,"Ayo Dosunmu",2021,2,8,38,Draft,25,Illinois,College/University
+61512,1630580,"Joe Wieskamp",2021,2,11,41,Draft,37,Iowa,College/University
+61513,1630587,"Isaiah Livers",2021,2,12,42,Draft,13,Michigan,College/University
+61514,1630535,"Greg Brown III",2021,2,13,43,Draft,45,Texas,College/University
+61515,1630556,"Kessler Edwards",2021,2,14,44,Draft,34,Pepperdine,College/University
+61516,1630584,"Juhann Begarin",2021,2,15,45,Draft,1,"Paris (France)","Other Team/Club"
+61517,1630625,"Dalano Banton",2021,2,16,46,Draft,44,Nebraska,College/University
+61518,1630525,"David Johnson",2021,2,17,47,Draft,44,Louisville,College/University
+61519,1630536,"Sharife Cooper",2021,2,18,48,Draft,18,Auburn,College/University
+61520,1630681,"Marcus Zegarowski",2021,2,19,49,Draft,34,Creighton,College/University
+61521,1630196,"Filip Petrusev",2021,2,20,50,Draft,21,"KK Mega Leks (Serbia)","Other Team/Club"
+61522,1630527,"Brandon Boston Jr.",2021,2,21,51,Draft,43,Kentucky,College/University
+61523,1630568,"Luka Garza",2021,2,22,52,Draft,13,Iowa,College/University
+61524,1629646,"Charles Bassey",2021,2,23,53,Draft,21,"Western Kentucky",College/University
+61525,1630572,"Sandro Mamukelashvili",2021,2,24,54,Draft,36,"Seton Hall",College/University
+61526,1630598,"Aaron Wiggins",2021,2,25,55,Draft,27,Maryland,College/University
+61527,1630575,"Scottie Lewis",2021,2,26,56,Draft,39,Florida,College/University
+61528,1630638,"Balsa Koprivica",2021,2,27,57,Draft,39,"Florida State",College/University
+61529,1630579,"Jericho Sims",2021,2,28,58,Draft,6,Texas,College/University
+61530,1630564,"RaiQuan Gray",2021,2,29,59,Draft,34,"Florida State",College/University
+61531,1630686,"Georgios Kalaitzakis",2021,2,30,60,Draft,36,"BC Nevezis (Greece)","Other Team/Club"
+61532,1631094,"Paolo Banchero",2022,1,1,1,Draft,42,Duke,College/University
+61533,1631096,"Chet Holmgren",2022,1,2,2,Draft,27,Gonzaga,College/University
+61534,1631095,"Jabari Smith Jr.",2022,1,3,3,Draft,31,Auburn,College/University
+61535,1631093,"Jaden Ivey",2022,1,5,5,Draft,13,Purdue,College/University
+61536,1631097,"Bennedict Mathurin",2022,1,6,6,Draft,36,Arizona,College/University
+61537,1631101,"Shaedon Sharpe",2022,1,7,7,Draft,32,Kentucky,College/University
+61538,1630700,"Dyson Daniels",2022,1,8,8,Draft,45,"Ignite (G League)","Other Team/Club"
+61539,1631110,"Jeremy Sochan",2022,1,9,9,Draft,37,Baylor,College/University
+61540,1631098,"Johnny Davis",2022,1,10,10,Draft,24,Wisconsin,College/University
+61541,1631172,"Ousmane Dieng",2022,1,11,11,Draft,6,"Breakers (New Zealand)","Other Team/Club"
+61542,1631114,"Jalen Williams",2022,1,12,12,Draft,27,"Santa Clara",College/University
+61543,1631105,"Jalen Duren",2022,1,13,13,Draft,39,Memphis,College/University
+61544,1630534,"Ochai Agbaji",2022,1,14,14,Draft,30,Kansas,College/University
+61545,1631109,"Mark Williams",2022,1,15,15,Draft,39,Duke,College/University
+61546,1631100,"AJ Griffin",2022,1,16,16,Draft,18,Duke,College/University
+61547,1631106,"Tari Eason",2022,1,17,17,Draft,31,"Louisiana State",College/University
+61548,1631207,"Dalen Terry",2022,1,18,18,Draft,25,"Arizona State",College/University
+61549,1631222,"Jake LaRavia",2022,1,19,19,Draft,41,"Wake Forest",College/University
+61550,1631103,"Malaki Branham",2022,1,20,20,Draft,37,"Ohio State",College/University
+61551,1631128,"Christian Braun",2022,1,21,21,Draft,35,Kansas,College/University
+61552,1631117,"Walker Kessler",2022,1,22,22,Draft,43,Auburn,College/University
+61553,1631223,"David Roddy",2022,1,23,23,Draft,21,"Colorado State",College/University
+61554,1630699,"MarJon Beauchamp",2022,1,24,24,Draft,28,"Ignite (G League)","Other Team/Club"
+61555,1631104,"Blake Wesley",2022,1,25,25,Draft,37,"Notre Dame",College/University
+61556,1631111,"Wendell Moore Jr.",2022,1,26,26,Draft,38,Duke,College/University
+61557,1631107,"Nikola Jovic",2022,1,27,27,Draft,40,"KK Mega Leks (Serbia)","Other Team/Club"
+61558,1631116,"Patrick Baldwin Jr.",2022,1,28,28,Draft,5,Wisconsin-Milwaukee,College/University
+61559,1631102,"TyTy Washington Jr.",2022,1,29,29,Draft,43,Kentucky,College/University
+61560,1631212,"Peyton Watson",2022,1,30,30,Draft,27,"California-Los Angeles",College/University
+61561,1629614,"Andrew Nembhard",2022,2,1,31,Draft,36,Gonzaga,College/University
+61562,1631216,"Caleb Houstan",2022,2,2,32,Draft,42,Michigan,College/University
+61563,1631132,"Christian Koloko",2022,2,3,33,Draft,44,Arizona,College/University
+61564,1631119,"Jaylin Williams",2022,2,4,34,Draft,27,Arkansas,College/University
+61565,1631108,"Max Christie",2022,2,5,35,Draft,15,"Michigan State",College/University
+61566,1630629,"Gabriele Procida",2022,2,6,36,Draft,32,"Fortitudo Pallacanestro Bologna (Italy)","Other Team/Club"
+61567,1631113,"Kennedy Chandler",2022,2,8,38,Draft,37,Tennessee,College/University
+61568,1631215,"Khalifa Diop",2022,2,9,39,Draft,30,"CB Gran Canaria (Spain)","Other Team/Club"
+61569,1631121,"Bryce McGowens",2022,2,10,40,Draft,41,Nebraska,College/University
+61570,1630604,"E.J. Liddell",2022,2,11,41,Draft,45,"Ohio State",College/University
+61571,1631211,"Trevor Keels",2022,2,12,42,Draft,6,Duke,College/University
+61572,1631157,"Ryan Rollins",2022,2,14,44,Draft,18,Toledo,College/University
+61573,1631169,"Josh Minott",2022,2,15,45,Draft,39,Memphis,College/University
+61574,1631130,"Ismael Kamagate",2022,2,16,46,Draft,13,"Paris (France)","Other Team/Club"
+61575,1631246,"Vince Williams Jr.",2022,2,17,47,Draft,43,"Virginia Commonwealth",College/University
+61576,1631112,"Kendall Brown",2022,2,18,48,Draft,41,Baylor,College/University
+61577,1630600,"Isaiah Mobley",2022,2,19,49,Draft,30,"Southern California",College/University
+61578,1631164,"Matteo Spagnolo",2022,2,20,50,Draft,41,"Vanoli Cremona (Italy)","Other Team/Club"
+61579,1631213,"Tyrese Martin",2022,2,21,51,Draft,5,Connecticut,College/University
+61580,1631255,"Karlo Matkovic",2022,2,22,52,Draft,45,"Mega Mozzart (Serbia)","Other Team/Club"
+61581,1631120,"J.D. Davison",2022,2,23,53,Draft,1,Alabama,College/University
+61582,1631161,"Yannick Nzosa",2022,2,24,54,Draft,24,"Unicaja Baloncesto Malaga (Spain)","Other Team/Club"
+61583,1630611,"Gui Santos",2022,2,25,55,Draft,5,"Associacao Atletica Ponte Preta (Brazil)","Other Team/Club"
+61584,1631247,"Luke Travers",2022,2,26,56,Draft,30,"Perth Wildcats (Australia)","Other Team/Club"
+61585,1631133,"Jabari Walker",2022,2,27,57,Draft,32,Colorado,College/University
+61586,1630656,"Hugo Besson",2022,2,28,58,Draft,36,"Breakers (New Zealand)","Other Team/Club"
+61587,1641705,"Victor Wembanyama",2023,1,1,1,Draft,37,"Metropolitans 92 (France)","Other Team/Club"
+61588,1641706,"Brandon Miller",2023,1,2,2,Draft,39,Alabama,College/University
+61589,1630703,"Scoot Henderson",2023,1,3,3,Draft,32,"Ignite (G League)","Other Team/Club"
+61590,1641708,"Amen Thompson",2023,1,4,4,Draft,31,"Overtime Elite","Other Team/Club"
+61591,1641709,"Ausar Thompson",2023,1,5,5,Draft,13,"Overtime Elite","Other Team/Club"
+61592,1641710,"Anthony Black",2023,1,6,6,Draft,42,Arkansas,College/University
+61593,1641731,"Bilal Coulibaly",2023,1,7,7,Draft,36,"Metropolitans 92 (France)","Other Team/Club"
+61594,1641716,"Jarace Walker",2023,1,8,8,Draft,24,Houston,College/University
+61595,1641707,"Taylor Hendricks",2023,1,9,9,Draft,33,"Central Florida",College/University
+61596,1641717,"Cason Wallace",2023,1,10,10,Draft,38,Kentucky,College/University
+61597,1641724,"Jett Howard",2023,1,11,11,Draft,42,Michigan,College/University
+61598,1641726,"Dereck Lively II",2023,1,12,12,Draft,27,Duke,College/University
+61599,1641711,"Gradey Dick",2023,1,13,13,Draft,44,Kansas,College/University
+61600,1641722,"Jordan Hawkins",2023,1,14,14,Draft,45,Connecticut,College/University
+61601,1641723,"Kobe Bufkin",2023,1,15,15,Draft,18,Michigan,College/University
+61602,1641718,"Keyonte George",2023,1,16,16,Draft,33,Baylor,College/University
+61603,1641720,"Jalen Hood-Schifino",2023,1,17,17,Draft,15,Indiana,College/University
+61604,1631170,"Jaime Jaquez Jr.",2023,1,18,18,Draft,40,"California-Los Angeles",College/University
+61605,1641764,"Brandin Podziemski",2023,1,19,19,Draft,5,"Santa Clara",College/University
+61606,1641715,"Cam Whitmore",2023,1,20,20,Draft,31,Villanova,College/University
+61607,1641730,"Noah Clowney",2023,1,21,21,Draft,34,Alabama,College/University
+61608,1641727,"Dariq Whitehead",2023,1,22,22,Draft,34,Duke,College/University
+61609,1631200,"Kris Murray",2023,1,23,23,Draft,32,Iowa,College/University
+61610,1631204,"Marcus Sasser",2023,1,25,25,Draft,43,Houston,College/University
+61611,1641767,"Ben Sheppard",2023,1,26,26,Draft,36,Belmont,College/University
+61612,1641733,"Nick Smith Jr.",2023,1,27,27,Draft,39,Arkansas,College/University
+61613,1641729,"Brice Sensabaugh",2023,1,28,28,Draft,33,"Ohio State",College/University
+61614,1631124,"Julian Strawther",2023,1,29,29,Draft,36,Gonzaga,College/University
+61615,1641762,"James Nnaji",2023,2,1,31,Draft,13,"FC Barcelona Basquet (Spain)","Other Team/Club"
+61616,1629618,"Jalen Pickett",2023,2,2,32,Draft,36,"Penn State",College/University
+61617,1631159,"Leonard Miller",2023,2,3,33,Draft,37,"Ignite (G League)","Other Team/Club"
+61618,1641732,"Colby Jones",2023,2,4,34,Draft,39,Xavier,College/University
+61619,1641763,"Julian Phillips",2023,2,5,35,Draft,1,Tennessee,College/University
+61620,1641748,"Andre Jackson Jr.",2023,2,6,36,Draft,42,Connecticut,College/University
+61621,1641816,"Hunter Tyson",2023,2,7,37,Draft,27,Clemson,College/University
+61622,1631243,"Mouhamed Gueye",2023,2,9,39,Draft,39,"Washington State",College/University
+61623,1641721,"Maxwell Lewis",2023,2,10,40,Draft,35,Pepperdine,College/University
+61624,1641735,"Amari Bailey",2023,2,11,41,Draft,39,"California-Los Angeles",College/University
+61625,1641774,"Tristan Vukcevic",2023,2,12,42,Draft,24,"Real Madrid Baloncesto (Spain)","Other Team/Club"
+61626,1641712,"Rayan Rupert",2023,2,13,43,Draft,32,"Breakers (New Zealand)","Other Team/Club"
+61627,1631321,"Sidy Cissoko",2023,2,14,44,Draft,37,"Ignite (G League)","Other Team/Club"
+61628,1641713,"GG Jackson II",2023,2,15,45,Draft,43,"South Carolina",College/University
+61629,1641754,"Seth Lundy",2023,2,16,46,Draft,18,"Penn State",College/University
+61630,1631340,"Mojave King",2023,2,17,47,Draft,15,"Ignite (G League)","Other Team/Club"
+61631,1641734,"Emoni Bates",2023,2,19,49,Draft,30,"Eastern Michigan",College/University
+61632,1641749,"Keyontae Johnson",2023,2,20,50,Draft,27,"Kansas State",College/University
+61633,1630592,"Jalen Wilson",2023,2,21,51,Draft,34,Kansas,College/University
+61634,1641739,"Toumani Camara",2023,2,22,52,Draft,29,Dayton,College/University
+61635,1641740,"Jaylen Clark",2023,2,23,53,Draft,41,"California-Los Angeles",College/University
+61636,1631209,"Isaiah Wong",2023,2,25,55,Draft,36,"Miami (FL)",College/University
+61637,1641844,"Tarik Biberovic",2023,2,26,56,Draft,43,"Fenerbahce S.K. (Turkey)","Other Team/Club"
+61638,1631218,"Trayce Jackson-Davis",2023,2,27,57,Draft,24,Indiana,College/University
+61639,1641753,"Chris Livingston",2023,2,28,58,Draft,28,Kentucky,College/University

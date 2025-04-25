@@ -1,0 +1,46 @@
+id,most_recent_name,year_founded,year_folded,is_active
+1,"Boston Celtics",1946,NULL,1
+2,"Chicago Stags",1946,1949,0
+3,"Cleveland Rebels",1946,1946,0
+4,"Detroit Falcons",1946,1946,0
+5,"Golden State Warriors",1946,NULL,1
+6,"New York Knicks",1946,NULL,1
+7,"Pittsburgh Ironmen",1946,1946,0
+8,"Providence Steamrollers",1946,1948,0
+9,"St. Louis Bombers",1946,1949,0
+10,"Toronto Huskies",1946,1946,0
+11,"Washington Capitols",1946,1950,0
+12,"Baltimore Bullets",1947,1954,0
+13,"Detroit Pistons",1948,NULL,1
+14,"Indianapolis Jets",1948,1948,0
+15,"Los Angeles Lakers",1948,NULL,1
+16,"Sacramento Kings",1948,NULL,1
+17,"Anderson Packers",1949,1949,0
+18,"Atlanta Hawks",1949,NULL,1
+19,"Denver Nuggets",1949,1949,0
+20,"Indianapolis Olympians",1949,1952,0
+21,"Philadelphia 76ers",1949,NULL,1
+22,"Sheboygan Red Skins",1949,1949,0
+23,"Waterloo Hawks",1949,1949,0
+24,"Washington Wizards",1961,NULL,1
+25,"Chicago Bulls",1966,NULL,1
+26,"Houston Rockets",1967,NULL,1
+27,"Oklahoma City Thunder",1967,NULL,1
+28,"Milwaukee Bucks",1968,NULL,1
+29,"Phoenix Suns",1968,NULL,1
+30,"Cleveland Cavaliers",1970,NULL,1
+31,"Los Angeles Clippers",1970,NULL,1
+32,"Portland Trail Blazers",1970,NULL,1
+33,"Utah Jazz",1974,NULL,1
+34,"Brooklyn Nets",1976,NULL,1
+35,"Denver Nuggets",1976,NULL,1
+36,"Indianapolis Pacers",1976,NULL,1
+37,"San Antonio Spurs",1976,NULL,1
+38,"Dallas Mavericks",1980,NULL,1
+39,"Charlotte Hornets",1988,NULL,1
+40,"Miami Heat",1988,NULL,1
+41,"Minnesota Timberwolves",1989,NULL,1
+42,"Orlando Magic",1989,NULL,1
+43,"Memphis Grizzlies",1995,NULL,1
+44,"Toronto Raptors",1995,NULL,1
+45,"New Orleans Pelicans",2002,NULL,1
