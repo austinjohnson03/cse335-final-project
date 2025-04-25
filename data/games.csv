@@ -1,4 +1,4 @@
-game_id,season_id,game_date,attendance,game_time,lead_changes,times_tied
+id,season_id,game_date,attendance,game_time,lead_changes,times_tied
 10500001,12005,2005-10-10,12106,,,
 10500002,12005,2005-10-11,13895,,,
 10500003,12005,2005-10-11,10909,,,

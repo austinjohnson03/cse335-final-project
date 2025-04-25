@@ -1,4 +1,4 @@
-team_id,abbreviation,nickname,city,state,arena,arena_capacity,owner,general_manager,head_coach,d_league_affiliation
+id,abbreviation,nickname,city,state,arena,arena_capacity,owner,general_manager,head_coach,d_league_affiliation
 1,BOS,Celtics,Boston,MA,TD Garden,19580,Bill Chisholm,Brad Stevens,Joe Mazulla,Maine Celtics
 5,GSW,Warriors,San Fransisco,CA,Chase Center,18064,Joe Lacob,Bob Myers,Steve Kerr,Santa Cruz Warriors
 6,NYK,Knicks,New York,NY,Madison Square Garden,19500,James Dolan,Scott Perry,Tom Thibodeau,West Chester Knicks
@@ -11,11 +11,11 @@ team_id,abbreviation,nickname,city,state,arena,arena_capacity,owner,general_mana
 25,CHI,Bulls,Chicago,IL,United Center,21711,Michael Reinsdorf,Arturas Karnisovas,Billy Donovan,Windy City Bulls
 27,OKC,Thunder,Oklahoma City,OK,Paycom Center,18203,Clay Bennett,Sam Presti,Mark Daigneault,Oklahoma City Blue
 28,MIL,Bucks,Milwaukee,WI,Fiserv Forum,17500,Wesley Edens & Marc Lasry,Jon Horst,Adrian Griffin,Wisconsin Herd
-29,PHX,Suns,Phoenix,AZ,Footprint Center,18422,Mat Ishbia,James Jones,Frank Vogel,No Affiliate
+29,PHX,Suns,Phoenix,AZ,Footprint Center,18422,Mat Ishbia,James Jones,Frank Vogel,
 30,CLE,Cavaliers,Cleveland,OH,Rocket Arena,19432,Dan Gilbert,Mike Gansey,Kenny Atkinson,Cleveland Charge
 31,HOU,Rockets,Houston,TX,Toyota Center,18104,Tilman Fertitta,Rafael Stone,Ime Udoka,Rio Grande Valley Vipers
 31,LAC,Clippers,Inglewood,CA,Intuit Dome,18000,Steve Balmer,Trent Redden,Tyron Lue,San Diego Clippers
-32,POR,Trail Blazers,Portland,OR,Moda Center,19980,Jody Allen,Joe Cronin,Chauncey Billups,No Affiliate
+32,POR,Trail Blazers,Portland,OR,Moda Center,19980,Jody Allen,Joe Cronin,Chauncey Billups,
 33,UTA,Jazz,Salt Lake City,UT,Delta Center,20000,Ryan Smith,Justin Zanik,Will Hardy,Salt Lake City Stars
 34,BKN,Nets,Brooklyn,NY,Barclays Center,19000,Joe Tsai,Sean Marks,Jacque Vaughn,Long Island Nets
 35,DEN,Nuggets,Denver,CO,Ball Arena,21000,Stan Kroenke,Calvin Booth,Michael Malone,Grand Rapids Gold
