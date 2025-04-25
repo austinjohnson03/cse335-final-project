@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW team_schedule_view AS
+CREATE OR REPLACE VIEW win_loss_viewteam_schedule_view AS
 SELECT
     t.name AS team_name,
     g.season_id,
@@ -16,7 +16,7 @@ GROUP BY t.name, g.season_id, s.end_year
 ORDER BY g.season_id, t.name;
 
 
-SET @end_year = NULL;
+SET @end_year = 2022; -- Edit this variable to filter years
 
 SELECT *
 FROM team_schedule_view
