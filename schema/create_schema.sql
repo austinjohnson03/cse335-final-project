@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS team_details (
   arena_capacity INT UNSIGNED NOT NULL CHECK (arena_capacity > 0),
   owner VARCHAR(64),
   general_manager VARCHAR(64),
-  head_coach VARCHAR(64) NOT NULL,
+  head_coach VARCHAR(64) NULL,
   d_league_affiliation VARCHAR(64) UNIQUE,
   FOREIGN KEY (id) REFERENCES teams(id)
     ON DELETE CASCADE ON UPDATE CASCADE
