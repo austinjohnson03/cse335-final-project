@@ -1,4 +1,4 @@
-SET @game_id = 22100010;
+SET @game_id = 22100001;
 
 SELECT 
     g.id AS game_id,

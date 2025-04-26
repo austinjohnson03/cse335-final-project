@@ -1,4 +1,4 @@
-SET @game_id = NULL;
+SET @game_id = ;
 
 
 SELECT 
