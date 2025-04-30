@@ -196,6 +196,6 @@ CREATE TABLE IF NOT EXISTS franchise_conferences (
 		ON DELETE CASCADE ON UPDATE CASCADE,
 	FOREIGN KEY (franchise_id) REFERENCES franchises(id)
 		ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (conference_id) REFERENCES conference(id)
+	FOREIGN KEY (conference_id) REFERENCES conferences(id)
 		ON DELETE CASCADE ON UPDATE CASCADE
 );
